@@ -7,7 +7,7 @@ public class Sorteio {
     private final long id;
     private String nome;
     private ArrayList<Bilhete> bilhetes = new ArrayList<Bilhete>();
-    private long premio = 0;
+    private double premio = 0;
     private Jogo resultado = new Jogo();
     private ArrayList<Bilhete> ganhadores = new ArrayList<Bilhete>();
 
@@ -18,7 +18,7 @@ public class Sorteio {
 
     public void adicionarBilhete(Bilhete bilhete) {
         bilhetes.add(bilhete);
-        premio += 600;
+        premio += 6;
     }
 
     public void sortearResultado() {
@@ -43,7 +43,7 @@ public class Sorteio {
         return bilhetes;
     }
 
-    public long getPremio() {
+    public double getPremio() {
         return premio;
     }
 

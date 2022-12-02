@@ -13,7 +13,6 @@ public class Bilhete {
         this.nomeDaLoteria = nomeDaLoteria;
         this.cidadeDaLoteria = cidadeDaLoteria;
         this.estadoDaLoteria = estadoDaLoteria;
-        jogo.fazerAposta();
     }
 
     public long getId() {
